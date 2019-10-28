@@ -1,0 +1,37 @@
+{
+  "name": "iftec",
+  "version": "1.0.0",
+  "description": "API REST basics",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marceloivanofre/iftec-api.git"
+  },
+  "keywords": [
+    "iftec",
+    "ifsp",
+    "node",
+    "api",
+    "express",
+    "react"
+  ],
+  "author": "Marcelo Ivanofre",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/marceloivanofre/iftec-api/issues"
+  },
+  "homepage": "https://github.com/marceloivanofre/iftec-api#readme",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.4"
+  }
+}
